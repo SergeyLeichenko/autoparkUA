@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000 !important;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v-application ul, .v-application ol {
+  padding: 0;
+}
+
+// carousel controls
+.car .v-carousel__controls {
+  background: transparent !important;
+  height: 30px;
+  .theme--dark.v-btn.v-btn--icon {
+    color: rgba(231, 58, 63, 1);
+  }
+  .v-carousel__controls__item .v-icon {
+    opacity: 1;
+  }
+  .v-btn--icon.v-size--small {
+    width: 0 !important;
+    height: 0 !important;
+    .v-icon {
+      font-size: 12px !important;
+    }
+  }
+}
